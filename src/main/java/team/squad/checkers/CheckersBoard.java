@@ -27,13 +27,13 @@ public class CheckersBoard {
                 if (i <= 2) {
                     if (theBoard[i][j].getCellColor().equals(Color.BLACK)) {
                         theBoard[i][j].setHasPiece(true);
-                        theBoard[i][j].setChecker(blackPieces.pop());
+                        theBoard[i][j].setChecker(redPieces.pop());
                     }
                 } else if (i >= 5) {
                     if (theBoard[i][j].getCellColor().equals(Color.BLACK)) {
                         if (theBoard[i][j].getCellColor().equals(Color.BLACK)) {
                             theBoard[i][j].setHasPiece(true);
-                            theBoard[i][j].setChecker(redPieces.pop());
+                            theBoard[i][j].setChecker(blackPieces.pop());
                         }
                     }
                 }

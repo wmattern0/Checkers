@@ -5,7 +5,7 @@ package team.squad.checkers;
  */
 public class Cell {
     private Color cellColor;
-    private Boolean hasPiece;
+    private Boolean hasPiece = false;
     private int xPosition;
     private int yPosition;
     private Piece checker;

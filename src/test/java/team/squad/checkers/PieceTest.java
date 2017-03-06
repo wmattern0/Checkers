@@ -33,12 +33,11 @@ public class PieceTest {
     @Test
     public void doesPieceUpdatePositionWhenMovedTest() {
         testCell00.setChecker(blackPiece);
-        testCell00.setChecker(null);
+        testCell00.removeChecker();
         testCell20.setChecker(blackPiece);
         assertTrue(blackPiece.getXPosition() == 2);
         assertTrue(blackPiece.getYPosition() == 0);
     }
-
 
     // need lame tests for getters and setters maybe
 }

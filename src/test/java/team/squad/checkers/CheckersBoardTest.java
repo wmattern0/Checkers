@@ -21,12 +21,12 @@ public class CheckersBoardTest {
     @Test
     public void arePiecesInCorrectPlacesTest() {
         assertTrue(checkersBoard.getCell(0, 0).getHasPiece());
-        assertTrue(checkersBoard.getCell(0,0).getChecker().getPieceColor().equals(Color.BLACK));
+        assertTrue(checkersBoard.getCell(0,0).getChecker().getPieceColor().equals(Color.RED));
         assertTrue(checkersBoard.getCell(2, 6).getHasPiece());
-        assertTrue(checkersBoard.getCell(2,6).getChecker().getPieceColor().equals(Color.BLACK));
+        assertTrue(checkersBoard.getCell(2,6).getChecker().getPieceColor().equals(Color.RED));
         assertTrue(checkersBoard.getCell(5, 1).getHasPiece());
-        assertTrue(checkersBoard.getCell(5,1).getChecker().getPieceColor().equals(Color.RED));
+        assertTrue(checkersBoard.getCell(5,1).getChecker().getPieceColor().equals(Color.BLACK));
         assertTrue(checkersBoard.getCell(7, 7).getHasPiece());
-        assertTrue(checkersBoard.getCell(7,7).getChecker().getPieceColor().equals(Color.RED));
+        assertTrue(checkersBoard.getCell(7,7).getChecker().getPieceColor().equals(Color.BLACK));
     }
 }
