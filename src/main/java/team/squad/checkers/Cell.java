@@ -46,4 +46,9 @@ public class Cell {
         this.checker.setXPosition(this.xPosition);
         this.checker.setYPosition(this.yPosition);
     }
+
+    public void removeChecker() {
+        this.checker = null;
+        this.setHasPiece(false);
+    }
 }
